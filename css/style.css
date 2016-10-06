@@ -1,0 +1,85 @@
+body {
+	font-family: sans-serif;
+	background-color: #222;
+	color: #FFF;
+	font-weight: thin;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+body a {
+	text-decoration: none;
+	color: #FFF
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: lighter;
+	color: #00FF00;
+}
+
+a:hover {
+	color: #00FF00;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 12px;
+}
+
+li {
+	list-style: none;
+	list-style-position: inside;
+	margin-left: -40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+  max-width: 90%;
+}
+
+.readmore a {
+  font-size: 12px;
+  color: #555;
+}
+
+.postdate {
+  font-size: 12px;
+  color: #555;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
+
+video {
+  max-width: 640px;
+	height: auto;
+}
+
+.hosts div {
+  padding: 0.5%;
+}
+
+.button {
+  background-color: #111;
+  padding: 15px 25px;
+  border-radius: 5px;
+	margin: 0 15px;
+}
+
+.menu {
+  text-align: center;
+}
+.menu a {
+  line-height: 4rem
+}
+
+.menu a:hover {
+  color: #00FF00;
+  background-color: #000;
+}

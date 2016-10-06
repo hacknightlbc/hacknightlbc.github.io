@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ site.title }} - {{ page.title }}</title>
+	{% include head.html %}
+</head>
+
+<body>
+
+	{% include header.html %}
+
+	<h2>{{ page.title }}</h2>
+
+	{{ content }}
+
+	{% include footer.html %}
+
+</body>
+
+</html>
