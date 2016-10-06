@@ -83,3 +83,11 @@ video {
   color: #00FF00;
   background-color: #000;
 }
+
+@media (max-width:512px) {
+  
+  .button {
+    margin: 0 30px;
+  }
+  
+}
