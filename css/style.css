@@ -87,7 +87,8 @@ video {
 @media (max-width:512px) {
   
   .button {
-    margin: 0 30px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   
 }
