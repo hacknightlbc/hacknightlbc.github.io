@@ -69,7 +69,8 @@ video {
   background-color: #111;
   padding: 15px 25px;
   border-radius: 5px;
-	margin: 0 15px;
+  margin: 0 15px;
+  white-space: nowrap;
 }
 
 .menu {
