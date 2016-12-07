@@ -1,0 +1,16 @@
+---
+title: Big Mouth Billy Alexa
+layout: post
+---
+<iframe class="aligncenter" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fhdadd%2Fvideos%2Fvb.655185264%2F10157576067105265%2F%3Ftype%3D3&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+**Finally** someone did something right with the Alexa API that's worth doing. Artist [Brian Kane] brought back to life the Big Mouth Billy Bass with a Raspberry Pi.
+
+> Do you, like many others, wake up each morning, gaze upon your Amazon Echo, and think, “Damn it, Echo. Instead of a shiny cylinder, why can’t you be a singing fish?”
+
+> Good news, friend. Your dreams have come true.
+
+Read more on [Techcrunch].
+
+[Brian Kane]: https://www.facebook.com/hdadd
+[Techcrunch]: https://techcrunch.com/2016/11/04/finally-at-long-last-someone-hacked-amazons-alexa-into-one-of-those-singing-fish/
