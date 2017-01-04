@@ -4,7 +4,7 @@ layout: page
 slug: /about/
 ---
 
-Hack Night is hosted at the [WeLabs] in downtown Long Beach on every Tuesday Night from 6pm to 10pm.
+Hack Night is hosted at the [WeLabs] in downtown Long Beach on every Wednesday Night from 6pm to 10pm.
 
 Devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
 
