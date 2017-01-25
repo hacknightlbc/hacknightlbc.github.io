@@ -93,6 +93,10 @@ video {
   background-color: #000;
 }
 
+iframe {
+  width: 100%;
+}
+
 @media (max-width:512px) {
 
   .button {
