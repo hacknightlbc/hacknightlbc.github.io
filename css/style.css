@@ -42,6 +42,7 @@ img {
   margin: 0 auto;
   border-radius: 3px;
   max-width: 90%;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 
 .readmore a {
@@ -91,6 +92,11 @@ video {
 .menu a:hover {
   color: #00FF00;
   background-color: #000;
+}
+
+iframe {
+  border-radius: 3px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 
 @media (max-width:512px) {
