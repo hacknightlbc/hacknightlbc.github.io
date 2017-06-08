@@ -2,7 +2,7 @@ title: Hack Night
 permalink: /:year/:month/:day/:title/
 paginate: 5
 
-
+baseurl: /hacknights
 
 exclude:
   - README.markdown
