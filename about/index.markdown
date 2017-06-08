@@ -1,4 +1,9 @@
 ---
+title: About HacknightsLBC
+layout: page
+---
+
+---
 title: About
 layout: page
 slug: /about/
@@ -32,3 +37,6 @@ Devs of all experience levels are encouraged to attend, learn from and share wit
 </div>
 
 [WeLabs]: http://www.welabs.us/
+
+
+Click to Learn how to [contribute](/about/contribute/).
