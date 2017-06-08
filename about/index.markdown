@@ -1,11 +1,6 @@
 ---
 title: About HacknightsLBC
 layout: page
----
-
----
-title: About
-layout: page
 slug: /about/
 ---
 
