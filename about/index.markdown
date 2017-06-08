@@ -18,13 +18,13 @@ Devs of all experience levels are encouraged to attend, learn from and share wit
 
 <div style="width: 49%;float:left;">
   <h2>Steve</h2>  
-  <img class="alignright" src="/img/steve.jpg">
+  <img class="alignright" src="{{ site.baseurl }}/img/steve.jpg">
 <p><a target="_blank" href="https://twitter.com/youngidealist">@youngidealist</a></p>
 <p>There is no evil, only stupid. Who is the more foolish, the Fool, or the fool who expected them to be smart?</p>
 </div>
 <div style="width: 49%;float:left;">
   <h2>Arthur</h2>
-  <img class="alignright" src="/img/art.jpg">
+  <img class="alignright" src="{{ site.baseurl }}/img/art.jpg">
   <p><a target="_blank" href="https://twitter.com/arthursucks">@arthursucks</a></p>
   <p>I'm an Open Source and Free Software nerd. I am addicted to caffeine and cycling.</p>
 </div>
@@ -34,4 +34,4 @@ Devs of all experience levels are encouraged to attend, learn from and share wit
 [WeLabs]: http://www.welabs.us/
 
 
-Click to Learn how to [contribute](/about/contribute/).
+Click to Learn how to [contribute]({{ site.baseurl }}/about/contribute/).
