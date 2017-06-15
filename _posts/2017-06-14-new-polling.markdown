@@ -1,5 +1,5 @@
 ---
-title: "Tonights Polling"
+title: Tonights Polling
 layout: post
 ---
 Look at the Hacknight Folder:
