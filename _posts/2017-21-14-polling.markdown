@@ -1,5 +1,5 @@
 ---
-title: Tonights Polling 6.21.2017
+title: Tonights Polling 6-21-2017
 layout: post
 ---
 Look at the Hacknight Folder:
