@@ -1,10 +1,8 @@
 ---
-Title: Terms of Service
+title: Web Site Terms and Conditions of Use
 layout: page
 slug: tos
 ---
-Web Site Terms and Conditions of Use
-------------------------------------
 
 ### 1. Terms
 

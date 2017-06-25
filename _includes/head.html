@@ -1,8 +1,12 @@
-<meta charset="utf-8">
-<!--base href="http://www.uncoded.org/hacknights/" -->
-<!--link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-<!--link rel="stylesheet" href="{{ site.baseurl }}/css/wordpress.css"-->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-<link rel="icon" href="{{ site.baseurl }}/img/small.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ metadesc }}">
+<head>
+	<title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="icon" href="{{ site.baseurl }}/img/small.png">
+  <meta name="description" content="{{ metadesc }}">
+</head>
