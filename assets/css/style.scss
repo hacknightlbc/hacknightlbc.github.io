@@ -5,6 +5,7 @@
 // Do not edit
 @import "{{ site.theme }}";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 
 @media (max-width: 830px) {
     .show-on-mobiles { display: inline; }
@@ -82,20 +83,24 @@ video {
 }
 
 .button {
+  font-family:  'Share Tech Mono', sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
   background-color: #111;
-  padding: 15px 25px;
-  border-radius: 5px;
-  margin: 0 15px;
+  border-radius: 3px;
+  margin: 10px auto;
   white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 200px;
+  display: block;
 }
 
 .button:hover {
   box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
 }
 
-.menu {
-  text-align: center;
-}
 .menu a {
   line-height: 4rem
 }
