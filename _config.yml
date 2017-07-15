@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_handle: uncoded
 github_org:  uncodedlb
-baseurl: /hacknights
+
 
 markdown: kramdown
 highlighter: rouge
