@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>{{ site.title }} - {{ page.title }}</title>
 	{% include head.html %}
-</head>
 
 <body>
 
-	{% include header.html %}
+<h1><a href="{{ site.baseurl }}/"><img class="aligncenter" src="{{ site.baseurl }}/img/hack-night-logo.png"></a></h1>
 
-	<h2>{{ page.title }}</h2>
+	<h2><i class="fa fa-terminal"></i> {{ page.title }}</h2>
 
 	{{ content }}
 
-	{% include footer.html %}
+<hr>
+
+<small class="copyright">&#169; 2017 <a href="http://www.uncoded.org">Uncoded</a> - Long Beach, CA - <a href="{{ site.baseurl }}/tos/">Terms of Service</a></small>
+
+  <span class="improve right hide-on-mobiles">
+    <a href="https://github.com/uncodedlb/hacknights/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+  </span>
 
 </body>
-
 </html>
