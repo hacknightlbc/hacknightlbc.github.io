@@ -1,0 +1,13 @@
+## SITE NAVIGATION
+## By default, all pages in your site are added to navigation.
+## If you want to link only specific pages or posts in your header, uncomment
+## the list below and for each page/post you want in navigation, add only the
+## (source) path and filename in the order they should show up in navigation.
+##
+## Note: This file uses the naming scheme site.header_pages from jekyll default
+## theme 'minima'.  The naming scheme sucks.  :wink2:
+##
+## Uncoment below to override 'header_pages' in '_config.yml'
+#
+#- about.md
+#- _posts/2017-07-18-styleguide.markdown
