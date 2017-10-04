@@ -1,3 +1,88 @@
-title: Hack Night
-permalink: /:year/:month/:day/:title/
-paginate: 5
+# Welcome to Jekyll!
+# Documentation: https://jekyllrb.com/docs/configuration/
+#      defaults: https://jekyllrb.com/docs/configuration/#default-configuration
+#
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Hack Night LBC
+email: hnlbc@uncoded.org
+description: > # this means to ignore newlines until "baseurl:"
+  We are a local Long Beach Tech meetup aspiring to connect the best minds of long beach with other great minds and the minds that need their services. Come join us every Wednesday for a chance to network and learn.
+TODO Make tutorial on how to create your own profile webpage here on Github.
+baseurl: "" # the subpath of your site, e.g. /blog # dont think it is needed as profile page?
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hacknightlbc
+github_username:  hacknightlbc
+
+## SITE NAVIGATION
+# By default, all pages in your site are added to navigation.
+# If you want to link only specific pages or posts in your header, uncomment
+# this and add the path to the pages in order as they should show up
+# Note: Any values are overridden by _data/header_pages.yml
+#header_pages:
+# - about.md
+
+
+# Build settings
+# ██████  ██    ██ ██ ██      ██████      ███████ ███████ ████████ ████████ ██ ███    ██  ██████  ███████
+# ██   ██ ██    ██ ██ ██      ██   ██     ██      ██         ██       ██    ██ ████   ██ ██       ██
+# ██████  ██    ██ ██ ██      ██   ██     ███████ █████      ██       ██    ██ ██ ██  ██ ██   ███ ███████
+# ██   ██ ██    ██ ██ ██      ██   ██          ██ ██         ██       ██    ██ ██  ██ ██ ██    ██      ██
+# ██████   ██████  ██ ███████ ██████      ███████ ███████    ██       ██    ██ ██   ████  ██████  ███████
+
+# Github-pages list of gems https://pages.github.com/versions/
+gems:
+  - jekyll-feed             # SEO generate an Atom (RSS-like) feed of your Jekyll posts — https://github.com/jekyll/jekyll-feed
+#  - jekyll-redirect-from    # SEO 301 redirects — https://github.com/jekyll/jekyll-redirect-from
+#  - jekyll-seo-tag          # SEO add metadata tags for search & social networks — https://github.com/jekyll/jekyll-seo-tag
+#  - jekyll-sitemap          # SEO Generate a sitemaps.org compliant sitemap — https://github.com/jekyll/jekyll-sitemap
+#  - jekyll-paginate         # Jekyll Built-in Pagination Generator for Jekyll
+#  - jekyll-readme-index     # Jekyll Render a project's README as the site's index — https://github.com/benbalter/jekyll-readme-index/
+#  - jekyll-avatar           # Liquid  rendering GitHub avatars — https://github.com/benbalter/jekyll-avatar/
+#  - jekyll-gist             # Liquid Liquid tag for displaying GitHub Gists — https://github.com/jekyll/jekyll-gist/
+#  - jekyll-mentions         # GFM @mention support for your Jekyll site — https://github.com/jekyll/jekyll-mentions
+#  - jekyll-relative-links   # GFM convert relative links to markdown files to their rendered equivalents — https://github.com/benbalter/jekyll-relative-links/
+  - jemoji                  # GFM GitHub-flavored Emoji plugin for Jekyll — https://github.com/jekyll/jemoji
+#  - jekyll-titles-from-headings # Generate page title from the first Markdown heading when none is specified — https://github.com/benbalter/jekyll-titles-from-headings
+#
+# Won't work on github pages, and will need to be added to Gemfile
+#  - jekyll-admin            # Provides a traditional CMS-style graphical interface to author and administer Jekyll — Docs: https://github.com/jekyll/jekyll-admin
+#  - jekyll-bootstrap-sass   # Docs: http://www.rubydoc.info/gems/jekyll-bootstrap-sass/0.1.0
+#  - bootstrap-sass          # Docs: http://www.rubydoc.info/gems/bootstrap-sass
+#
+# Jekyll-pages requires the following Gems by default.
+# Therefore, read the docs if you want to change default configurations.
+#      - jekyll-coffeescript              # https://github.com/jekyll/jekyll-coffeescript
+#      - jekyll-default-layout            # https://github.com/benbalter/jekyll-default-layout
+#      - jekyll-gist                      # https://github.com/jekyll/jekyll-gist
+#      - jekyll-github-metadata           # https://github.com/jekyll/github-metadata
+#      - jekyll-optional-front-matter     # https://github.com/benbalter/jekyll-optional-front-matter
+#      - jekyll-paginate                  # https://github.com/jekyll/jekyll-paginate
+#      - jekyll-readme-index              # https://github.com/benbalter/jekyll-readme-index
+#      - jekyll-relative-links            # https://github.com/benbalter/jekyll-relative-links
+#      - jekyll-titles-from-headings      # https://github.com/benbalter/jekyll-titles-from-headings
+
+liquid:
+  error_mode: strict #warn  #lax
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Github Metadata (github-pages)
+# Docs https://github.com/jekyll/github-metadata
+repository: hacknightlbc/hacknightlbc.github.io                                   # username/repo-name
+
+# Jekyll Sass Converter: https://github.com/jekyll/jekyll-sass-converter/
+# Docs: https://jekyllrb.com/docs/assets/#sassscss
+sass:
+    sass_dir: assets/_sass_imports
+    style: compressed #nested expanded compact compressed
