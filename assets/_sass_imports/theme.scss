@@ -1,0 +1,18 @@
+// Import sass partials relative to `sass_dir` in `_config.yml`
+// Import Bootstrap Compass integration
+// this imports the file bootstrap/stylesheets/_bootstrap_compass.scss
+@import 'bootstrap/stylesheets/bootstrap-compass';
+
+// Import custom Bootstrap variables, EDIT VARIABLES IN THIS FILE PER THEME REQUIREMENTS. USE CAUTION.
+// this imports the file theme/_theme_variables.scss
+@import 'theme/theme_variables';
+
+// Import Bootstrap for Sass, DO NOT ADD STYLES TO THIS FILE. EDIT ONLY IF YOU UNDERSTAND EFFECTS
+// this imports the file theme/_theme_bootstrap.scss
+@import 'theme/theme_bootstrap';
+
+@import 'theme/syntax-highlighting';
+
+// Import new Sass partial files below or add your own custom styles
+// this imports the file theme/_custom.scss
+@import 'theme/custom';
