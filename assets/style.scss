@@ -1,0 +1,49 @@
+---
+# DO NOT EDIT
+#
+# This Front Matter tells Jekyll to use sass-converter
+#
+# There are two kinds of Sass files:
+#   1. Main files, like this one, to be output as CSS files.
+#   2. Partials (AKA components), are used by main files in @import statements.
+#
+# Main files are like Jekyll pages – they go where you want them to be output.
+# They contain YAML front matter (--- lines) at the top. The front matter
+# and extension (`.sass` or `.scss`) tell Jekyll to parse with *sass-converter.*
+#
+# Partials are standard sass syntax files *without front matter*. They are used
+# in `@import` statements. Since they are similar to other hidden Jekyll data
+# to generate the site they go in an underscored directory defined by
+# `sass_dir`. Jekyll default is `_sass` (but this theme overides default in
+# `_config.yml`).
+#
+# **Note:**
+# Though *sass-converter* is useful for production, it can't generate
+# sourcemap files used for debugging.  You will need to use another tool, such
+# as *sass* or *compass*, during development to generate sourcemaps.
+# However, other tools will not parse files with front matter. Ugh!
+# Therefore, this site is built so sass-converter can use this file to import
+# `theme.scss` as one main standard sass syntax file (a partial).
+# It's a bit redundant, but allows other tools to use `theme.scss` as the main
+# sass file and output it here with sourcemaps.
+#
+# Example:
+#  Add a _config_local.yml file with at least these lines
+#  ```
+#  keep_files:
+#    - theme/style.css.map
+#    - theme/style.css
+#  sass:
+#      style: :nested
+#  ```
+#
+#  bundle exec jekyll build --config _config.yml,_config.local.yml   # Build site
+#  sass _3.4.25_ -I assets/_sass_imports --sourcemap=auto --scss --compass --update --force assets/_sass_imports/theme.scss:_site/assets/style.css # Generate sourcemaps
+#  bundle exec jekyll serve --skip-initial-build --no-watch --trace --config _config.yml,_config.local.yml # Run Jekyll Server, but don't rebuild site
+#
+# DO NOT EDIT
+# Best-practice is to add customizations as components, (inside `_sass_imports`)
+# and @import those here.  Alternatively, add custom sass/css to `theme.scss`
+---
+
+@import 'theme';

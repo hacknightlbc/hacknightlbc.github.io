@@ -1,2 +1,32 @@
-_site/
+### Jekyll ###
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.bundle
+_config.local.yml
 
+
+### Gulp ###
+package.json
+/node_modules/
+
+
+### Atom ###
+.ftpconfig
+.sftpconfig
+
+
+### Logs and Databases ###
+*.log
+*.sql
+*.sqlite
+
+
+### Linux ###
+*~
+
+
+### MacOS ###
+*.DS_Store
+._*
