@@ -23,7 +23,7 @@ With [Brew] installed you can run:
 We'll try to help everyone get set up. For those playing the home game reach out to me [@arthursucks] or chat with us on the [Slack channel]. We'll do our best to set you up.
 
 **Never hesitate to ask for Help!**  
-That's exactly why this community is here.
+That's _exactly_ why this community is here.
 
 ### See you tonight at:
 [Rebel Bite](https://www.meetup.com/Uncoded/events/245151891/) in Downtown Long Beach.
