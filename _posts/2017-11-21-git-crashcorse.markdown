@@ -25,6 +25,9 @@ We'll try to help everyone get set up. For those playing the home game reach out
 **Never hesitate to ask for Help!**  
 That's exactly why this community is here.
 
+### See you tonight at:
+[Rebel Bite](https://www.meetup.com/Uncoded/events/245151891/) in Downtown Long Beach.
+
 [Git]: https://git-scm.com/
 {:target="_blank"}
 
