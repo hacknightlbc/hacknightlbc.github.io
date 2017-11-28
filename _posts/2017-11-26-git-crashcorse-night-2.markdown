@@ -1,5 +1,5 @@
 ---
-title: Git Crashcose - Night Two
+title: Git Crashcorse - Night Two
 layout: post
 ---
 After setting up [Git on your local machine](/2017/11/21/git-crashcorse.html) we will start some simple lessions.
