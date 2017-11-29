@@ -12,7 +12,7 @@
 title: Hack Night LBC
 email: hnlbc@uncoded.org
 description: > # this means to ignore newlines until "baseurl:"
-  We are a local Long Beach Tech meetup aspiring to connect the best minds of long beach with other great minds and the minds that need their services. Come join us every Wednesday for a chance to network and learn.
+  We are a local Long Beach Tech meetup aspiring to connect the best minds of long beach with other great minds and the minds that need their services. Come join us every Tuesday for a chance to network and learn.
 baseurl: "" # the subpath of your site, e.g. /blog # dont think it is needed as profile page?
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hacknightlbc
