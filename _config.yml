@@ -46,7 +46,7 @@ gems:
 #  - jekyll-gist             # Liquid Liquid tag for displaying GitHub Gists — https://github.com/jekyll/jekyll-gist/
 #  - jekyll-mentions         # GFM @mention support for your Jekyll site — https://github.com/jekyll/jekyll-mentions
 #  - jekyll-relative-links   # GFM convert relative links to markdown files to their rendered equivalents — https://github.com/benbalter/jekyll-relative-links/
-  - jemoji                  # GFM GitHub-flavored Emoji plugin for Jekyll — https://github.com/jekyll/jemoji
+#  - jemoji                  # GFM GitHub-flavored Emoji plugin for Jekyll — https://github.com/jekyll/jemoji
 #  - jekyll-titles-from-headings # Generate page title from the first Markdown heading when none is specified — https://github.com/benbalter/jekyll-titles-from-headings
 #
 # Won't work on github pages, and will need to be added to Gemfile

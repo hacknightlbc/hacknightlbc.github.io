@@ -20,7 +20,7 @@ ruby RUBY_VERSION
 #
 # To use any of these gems, be sure to add to `_config.yml`
 #       For example, `jekyll-sitemap` is enabled by default.
-gem 'github-pages', group: :jekyll_plugins
+# gem 'github-pages', group: :jekyll_plugins
 
 # frozen_string_literal: true
 source "https://rubygems.org"
