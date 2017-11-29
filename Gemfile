@@ -22,6 +22,14 @@ ruby RUBY_VERSION
 #       For example, `jekyll-sitemap` is enabled by default.
 gem 'github-pages', group: :jekyll_plugins
 
+# frozen_string_literal: true
+source "https://rubygems.org"
+
+# gem "rails"
+
+gem "jekyll"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
 
 # Add gems to development group
 # A few suggested gems for local development or when not using github pages
