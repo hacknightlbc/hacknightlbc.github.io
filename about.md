@@ -11,8 +11,6 @@ Devs of all experience levels are encouraged to attend, learn from and share wit
 
 ### WeLabs is located at
 
-<p style="text-align:center;">235 E Broadway #800, Long Beach, CA 90802</p>
-
 <div class="hosts">
 
 <div style="width: 49%;float:left;">
