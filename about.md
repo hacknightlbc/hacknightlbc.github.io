@@ -9,8 +9,6 @@ Hack Night is hosted at the [Rebel Bite] in downtown Long Beach on every Tuesday
 
 Devs of all experience levels are encouraged to attend, learn from and share with one another. Hack Nights begin with introductions and sharing followed by a working session.
 
-### WeLabs is located at
-
 <div class="hosts">
 
 <div style="width: 49%;float:left;">
