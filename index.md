@@ -5,5 +5,5 @@
 layout: home
 ---
 
-# Welcome to Hack Night
+# Welcome to the NEW Hack Nights!
 
