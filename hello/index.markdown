@@ -2,7 +2,7 @@
 
 **Welcome to Hack Night**
 
-Tuesday, December 5th, 2017
+Tuesday, December 12th, 2017
 
 ---
 
@@ -27,7 +27,6 @@ PASS: aquaticskates374
 **Upcoming Events**
 
 + **Code and Coffee** : Saturday morning, 10:30 am @ Critiqit
-+ **WAPRO** : Thursday, December 7th, 7pm @ TBD
 + **Techworking** : Thursday, December 14th, 6 pm @ Padre's
 
 See **meetup.com/uncoded** for more info!  
