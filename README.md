@@ -27,11 +27,11 @@ Run your container (@poproar used port 4000 for his own sanity but you could use
 ```docker run --rm -p 4000:4000 -v $(pwd):/site jekyllHackNight```
 
 ## Step six (6)
-Point your browser to (localhost:4000)[http://localhost:4000] or just (localhost)[http://localhost] if you used port 80
+Point your browser to [localhost:4000](http://localhost:4000) or just [localhost](http://localhost) if you used port 80
 
 ## Step seven (7)
 Enjoy
 
 ### Thanks
-A big thanks goes to @BretFisher for sharing this (repo)[https://github.com/BretFisher/jekyll-serve] to get us started.
+A big thanks goes to @BretFisher for sharing this [repo](https://github.com/BretFisher/jekyll-serve) to get us started.
 Not sure how to fork and suggest the Dockerfile changes made here to get github-pages gem to work
